@@ -69,7 +69,7 @@ GROUP BY disease_name, disease_category
 ORDER BY total_cost_burden DESC
 LIMIT 10;
 
--- Query 6: Cohort analysis — uninsured high-risk patients by state
+-- Query 6: Cohort analysis - uninsured high-risk patients by state
 SELECT 
     state,
     COUNT(*) AS uninsured_severe_critical,
